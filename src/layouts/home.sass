@@ -1,0 +1,36 @@
+@custom-media --smallest-down (width >= 0px) and (width <= 320px)
+@custom-media --phone-down (width >= 0px) and (width <= 420px)
+@custom-media --phone-up (width >= 421px) and (width <= 9999px)
+@custom-media --smaller-down (width >= 0px) and (width <= 675px)
+@custom-media --small-down (width >= 0) and (width <= 800px)
+@custom-media --nav-break (width >= 0) and (width <= 900px)
+@custom-media --nav-break-up (width >= 901px) and (width <= 9999px)
+@custom-media --med-break (width >= 0) and (width <= 1180px)
+@custom-media --big-break-down (width >= 0px) and (width <= 1023px)
+@custom-media --big-break (width >= 1024px) and (width <= 9999px)
+@custom-media --max-up (width >= 1500px) and (width <= 9999px)
+
+.home-section
+  width: 70%
+  max-width: 1000px
+  margin: 10% auto
+  @media screen and (max-width: 500px)
+    width: 100%
+  img
+    display: block
+    width: 100%
+    margin: 0 auto
+  .logo
+    width: 20%
+  .goat
+    width: 65%
+  .ff
+    width: 65%
+    margin-bottom: 15%
+  p
+    font-size: 1.2em
+    font-style: italic
+    width: 80%
+    display: block
+    margin: 4% auto
+    text-align: center
